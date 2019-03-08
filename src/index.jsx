@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/stylesheets/index.css';
+import './assets/stylesheets/dashboard.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.register();

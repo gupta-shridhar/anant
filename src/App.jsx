@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-// import * as routes from './ constants/routes';
-import Navbar from './components/layout/Navbar';
-// import LandingPage from './components/dashboard/Landing';
+import * as routes from './ constants/routes';
+import TopNavbar from './components/layout/TopNavbar';
+import Dashboard from './components/dashboard';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <React.Fragment>
-          <Navbar />
-          {/* <Switch>
-            <Route exact path={routes.LANDING} component={LandingPage} />
-          </Switch> */}
+          <TopNavbar />
+          <Switch>
+            <Route exact path={routes.DASHBOARD} component={Dashboard} />
+          </Switch>
         </React.Fragment>
       </BrowserRouter>
     );

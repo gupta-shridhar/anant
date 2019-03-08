@@ -1,0 +1,66 @@
+.benner__section{
+  position: relative;
+  margin-top: 56px;
+  background-attachment: fixed;
+  background-image: url('../img/banner.jpg');
+}
+
+.benner__section .homer__benner{
+  height: calc(100vh - 55px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.benner__section .homer__benner h1{
+    font-size: 47px;
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+}
+
+.benner__section .homer__benner h2{
+  font-weight: 500;
+  font-size: 21px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  text-shadow: 0 1px 8px rgba(0,0,0,.4);
+}
+
+.benner__section .overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  opacity: 0.5;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
+.benner__section .form-inline{
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.benner__section .form-inline .form-control{
+  height: 54px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #202020;
+  padding-left: 53px;
+  text-transform: capitalize;
+}
+
+.benner__section .form-inline .search_icon{
+  width: 20px;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
